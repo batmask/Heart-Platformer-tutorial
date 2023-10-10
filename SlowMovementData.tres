@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="PlayerMovementData" load_steps=2 format=3 uid="uid://d3g5ekr1ogw38"]
+
+[ext_resource type="Script" path="res://PlayerMovementData.gd" id="1_mkfrf"]
+
+[resource]
+script = ExtResource("1_mkfrf")
+SPEED = 50.0
+ACCELERATION = 600.0
+FRICTION = 800.0
+JUMP_VELOCITY = -250.0

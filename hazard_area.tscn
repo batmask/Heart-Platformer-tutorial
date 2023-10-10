@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dsmi5v66mltyw"]
+
+[ext_resource type="Script" path="res://hazard_area.gd" id="1_dmce1"]
+
+[node name="HazardArea" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_dmce1")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
